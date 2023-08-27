@@ -1,0 +1,50 @@
+.left {
+  animation: left 2s ease-in-out 0.5s backwards;
+}
+
+@keyframes left {
+  0% {
+    position: relative;
+    left: -100%;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    left: 0%;
+    opacity: 1;
+  }
+}
+
+.right {
+  animation: right 2s ease-in-out 0.5s backwards;
+}
+
+@keyframes right {
+  0% {
+    position: relative;
+    right: -100%;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    right: 0%;
+    opacity: 1;
+  }
+}
+
+.rightA {
+  animation: rightA 2s ease-in-out 0.5s backwards;
+}
+
+@keyframes rightA {
+  0% {
+    position: absolute;
+    right: -100%;
+    opacity: 0;
+  }
+  100% {
+    position: absolute;
+    right: -432px;
+    opacity: 1;
+  }
+}

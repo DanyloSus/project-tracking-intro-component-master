@@ -2,10 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-:root {
+:root,
+button {
   font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
 }
 
 p {
   font-family: "Barlow", sans-serif;
+  text-transform: none;
 }/*# sourceMappingURL=index.css.map */
